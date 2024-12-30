@@ -1,0 +1,43 @@
+User user1 logged in.
+User user1 logged in.
+User user1 logged in.
+User user2 logged in.
+User user1 logged out.
+Fraudulent transaction detected, aborting request.
+As of 80101000000, user1 has a balance of $100000.
+As of 80101000000, user1 has a balance of $100000.
+Transaction 0 placed at 100000000000: $100000 from user2 to user1 at 100000000001.
+Fraudulent transaction detected, aborting request.
+Transaction 1 placed at 100000000000: $50 from user1 to user2 at 100000000002.
+Transaction 2 placed at 100000000000: $50 from user1 to user2 at 100000000002.
+Transaction 3 placed at 100000000000: $0 from user1 to user2 at 100000000002.
+User user1 logged out.
+Fraudulent transaction detected, aborting request.
+Transaction 0 executed at 100000000001: $100000 from user2 to user1.
+Transaction 1 executed at 100000000002: $50 from user1 to user2.
+Transaction 2 executed at 100000000002: $50 from user1 to user2.
+Transaction 3 executed at 100000000002: $0 from user1 to user2.
+0: user2 sent 100000 dollars to user1 at 100000000001.
+1: user1 sent 50 dollars to user2 at 100000000002.
+2: user1 sent 50 dollars to user2 at 100000000002.
+3: user1 sent 0 dollars to user2 at 100000000002.
+There were 4 transactions that were placed between time 100000000001 to 100000000003.
+281Bank has collected 480 dollars in fees over 2 seconds.
+Customer user1 account summary:
+Balance: $199870
+Total # of transactions: 4
+Incoming 1:
+0: user2 sent 100000 dollars to user1 at 100000000001.
+Outgoing 3:
+1: user1 sent 50 dollars to user2 at 100000000002.
+2: user1 sent 50 dollars to user2 at 100000000002.
+3: user1 sent 0 dollars to user2 at 100000000002.
+Customer user2 account summary:
+Balance: $149650
+Total # of transactions: 4
+Incoming 3:
+1: user1 sent 50 dollars to user2 at 100000000002.
+2: user1 sent 50 dollars to user2 at 100000000002.
+3: user1 sent 0 dollars to user2 at 100000000002.
+Outgoing 1:
+0: user2 sent 100000 dollars to user1 at 100000000001.
